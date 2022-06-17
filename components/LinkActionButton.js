@@ -2,7 +2,7 @@ import {ActionIcon, ThemeIcon, useMantineTheme } from '@mantine/core'
 import Link from 'next/link'
 import React, { useCallback, useEffect, useState } from 'react'
 
-function aLinkButton({icon, page, size=50, glow='blue'}) {
+function ALinkButton({icon, page, size=50, glow='blue'}) {
   const [active, setActive] = useState('transparent')
   const theme = useMantineTheme()
   const [color, setColor] = useState(null)
@@ -46,4 +46,4 @@ function aLinkButton({icon, page, size=50, glow='blue'}) {
   )
 }
 
-export default aLinkButton
+export default ALinkButton
